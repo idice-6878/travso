@@ -1,0 +1,79 @@
+
+ 
+ .navitemData {
+  transition: transform 0.3s ease;
+}
+
+.navitemData:hover {
+  transform: scale(1); /* Scales up the item without changing layout */
+}
+ 
+ .navitemData .css-1umw9bq-MuiSvgIcon-root {
+  fill: rgb(176 187 193) !important;
+}
+
+.navitemData:hover .css-1umw9bq-MuiSvgIcon-root {
+  fill: rgb(253, 254, 255) !important;
+  background-color: #1DB2AA;
+  padding: 4px;
+  border-radius: 20px;
+  height: 29px;
+  width: 30px;
+}
+
+.navitemDatas .css-1umw9bq-MuiSvgIcon-root {
+  fill: rgb(176 187 193) !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.navitemDatas:hover .css-1umw9bq-MuiSvgIcon-root {
+  fill: rgb(253, 254, 255) !important;
+  background-color: #1DB2AA;
+  padding: 4px;
+  border-radius: 20px;
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.navitemData:hover .labelData {
+  color: black;
+  font-weight: 600;
+}
+
+/* Custom thin scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+width: 8px; /* Set the width of the scrollbar */
+height: 8px; /* Set the height for horizontal scrollbar */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+background: #f1f1f1; /* Light background for the track */
+border-radius: 10px; /* Rounded corners for track */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+background: #888; /* Darker color for the scrollbar thumb */
+border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+background: #555; /* Darker color when hovered */
+}
+
+.scrollbar-thin {
+-ms-overflow-style: none; /* For Internet Explorer */
+scrollbar-width: thin; /* For Firefox */
+}
+
+
+/* Add this to your global stylesheet or Tailwind CSS configuration */
+.scrollbar-hidden::-webkit-scrollbar {
+display: none;
+}
+
+.scrollbar-hidden {
+-ms-overflow-style: none; /* For Internet Explorer */
+scrollbar-width: none; /* For Firefox */
+}
+

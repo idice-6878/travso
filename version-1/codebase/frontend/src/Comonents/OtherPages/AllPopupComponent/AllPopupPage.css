@@ -1,0 +1,54 @@
+aside.epr-main.EmojiPickerReact.epr_mw4zr1.epr_q53mwh.epr_7hyle2.epr_-x928hz.epr_-rvl3je.epr_-khp9xq.epr_-to8mm.epr_-4ueg5a.epr_iddbfm.epr_vy4vae.epr_6daqyu.epr_-6npj90.w-\[250px\].h-\[300px\].shadow-lg.rounded-lg {
+    width: 320px !important;
+    height: 350px !important;
+}
+
+/* CreatePostPopup  */
+.dataSelect .css-13cymwt-control{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #212626 !important;
+    background-color: #F0F7F7 !important;
+    border-radius: 8px !important;
+    border: 1px solid #F5F5F5 !important;
+    min-height: 48px !important;
+}
+
+
+.dataSelect .css-1jqq78o-placeholder{
+    color: #869E9D !important;
+    font-weight: 400 !important;
+    margin-left: 4px !important;
+    padding: 2px !important;
+
+}
+
+
+.dataSelect .css-1xc3v61-indicatorContainer{
+    color: #89a1a0 !important;
+}
+
+
+.dataSelect css-t3ipsp-control{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #212626 !important;
+    background-color: #F0F7F7 !important;
+    border-radius: 8px !important;
+    border: 1px solid #F5F5F5 !important;
+    min-height: 48px !important;
+}
+
+.dataSelect css-t3ipsp-control:hover{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #212626 !important;
+    background-color: #F0F7F7 !important;
+    border-radius: 8px !important;
+    border: 1px solid #F5F5F5 !important;
+    min-height: 48px !important;
+    border-color: #F5F5F5 !important;
+}
